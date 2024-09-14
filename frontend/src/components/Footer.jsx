@@ -40,12 +40,19 @@ const Footer = () => {
 
             </div>
 
-            <div>
+            {/* <div>
                 <hr />
                 <p className='py-5 text-sm text-center'>
                     <p>&copy; Copyright Ahmad Sabbagh - All Rights Reserved.</p>
                 </p>
 
+            </div> */}
+
+            <div>
+                <hr />
+                <p className='py-5 text-sm text-center'>
+                    <span>&copy; Copyright Ahmad Sabbagh - All Rights Reserved.</span>
+                </p>
             </div>
 
         </div>
