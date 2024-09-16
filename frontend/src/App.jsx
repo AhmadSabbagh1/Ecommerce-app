@@ -12,11 +12,17 @@ import Orders from './pages/Orders'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
 
     <div className='px-4 sm:px-[5vw] m:px-[7vw] lg:px-[9vw]'>
+      {/* from that we can use Toast notification */}
+      <ToastContainer></ToastContainer>
+
+
       {/* We placed it above the routes so that it appears on all pages */}
       <Navbar></Navbar>
       <SearchBar></SearchBar>
