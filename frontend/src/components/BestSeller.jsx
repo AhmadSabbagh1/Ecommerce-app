@@ -12,7 +12,7 @@ const BestSeller = () => {
         const bestProduct = products.filter((item) => (item.bestseller))
         // take bestseller from the local file
         setBestSeller(bestProduct.slice(0, 5))
-    }, [])
+    }, [products])
 
     return (
         <div className='my-10'>
